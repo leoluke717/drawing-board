@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DrawingView.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic)DrawingView *drawingView;
 
 @end
 

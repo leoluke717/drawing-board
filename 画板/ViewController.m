@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    _drawingView = [[DrawingView alloc]initWithFrame:self.view.frame];
+    [self.view addSubview:_drawingView];
+
 }
 
 - (void)didReceiveMemoryWarning {
